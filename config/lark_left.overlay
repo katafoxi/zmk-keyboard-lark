@@ -1,0 +1,24 @@
+// lark_left.overlay
+
+#include "lark.dtsi" // Notice that the main dtsi files are included in the overlay.
+
+&kscan0 {
+    col-gpios
+        = <&gpio0 22 GPIO_ACTIVE_HIGH> // col5 in the schematic
+        , <&gpio0 24 GPIO_ACTIVE_HIGH> // col4 in the schematic
+        , <&gpio1 0  GPIO_ACTIVE_HIGH> // col3 in the schematic
+        , <&gpio0 11 GPIO_ACTIVE_HIGH> // col2 in the schematic
+        , <&gpio1 4  GPIO_ACTIVE_HIGH> // col1 in the schematic
+        , <&gpio1 6  GPIO_ACTIVE_HIGH> // col0 in the schematic
+        ;
+};
+
+/ {
+        leds {
+        compatible = "gpio-leds";
+        capslock_led: capslock_led {
+            gpios = <&gpio0 17 GPIO_ACTIVE_HIGH>; // P0.17 на nice!nano v2
+            label = "Caps Lock LED";
+        };
+    };
+};
