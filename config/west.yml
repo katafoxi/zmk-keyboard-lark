@@ -22,11 +22,5 @@ manifest:
       revision: main
       import: app/west.yml
 
-      #ZMK modules
-    - name: zmk-keyboards-lark
-      remote: katafoxi
-      revision: main
-      # This points to a west manifest file in the remote module for further imports
-      import: west.yml
   self:
     path: config
