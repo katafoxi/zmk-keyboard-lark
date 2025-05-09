@@ -1,0 +1,5 @@
+config SHIELD_LARK_LEFT
+    def_bool $(shields_list_contains,lark_left)
+
+config SHIELD_LARK_RIGHT
+    def_bool $(shields_list_contains,lark_right)

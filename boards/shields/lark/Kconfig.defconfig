@@ -1,0 +1,15 @@
+if SHIELD_LARK_LEFT
+
+    config ZMK_KEYBOARD_NAME
+        default "LARKeyboard"
+
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default y
+endif
+
+if SHIELD_LARK_LEFT || SHIELD_LARK_RIGHT
+
+    config ZMK_SPLIT
+        default y
+
+endif

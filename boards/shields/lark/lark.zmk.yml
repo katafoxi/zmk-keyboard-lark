@@ -1,0 +1,14 @@
+file_format: "1"
+id: lark
+name: LARKeyboard
+type: shield
+url: https://github.com/katafoxi/zmk-keyboard-lark
+requires: 
+  - pro_micro
+exposes: 
+  - GPIO
+features:
+  - keys
+siblings:
+  - lark_left
+  - lark_right
