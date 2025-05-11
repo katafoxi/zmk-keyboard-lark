@@ -21,7 +21,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-keyboards-lark
+    - name: zmk-keyboard-lark
       remote: katafoxi
       revision: main
   self:
