@@ -3,3 +3,7 @@ config SHIELD_LARK_LEFT
 
 config SHIELD_LARK_RIGHT
     def_bool $(shields_list_contains,lark_right)
+
+# No whitespace after the comma or in the keyboard name!
+config SHIELD_LARK_DONGLE
+    def_bool $(shields_list_contains,lark_dongle)
