@@ -17,17 +17,28 @@ if SHIELD_LARK_DONGLE
 
     # Set this to ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS + your desired number of BT profiles (default is 5)
     config BT_MAX_CONN
-        default 5
+        default 6
 
     # Set this to the same number as BT_MAX_CONN
     config BT_MAX_PAIRED
-        default 5
+        default 6
+        
+    # Enable fetching split peripheral battery levels to the central side (default n)
+    CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
+        default y
 
 endif
 
 if SHIELD_LARK_LEFT || SHIELD_LARK_RIGHT || SHIELD_LARK_DONGLE
 
     config ZMK_SPLIT
+        default y
+
+endif
+
+if SHIELD_LARK_LEFT
+
+    config ZMK_SPLIT_ROLE_CENTRAL
         default y
 
 endif
