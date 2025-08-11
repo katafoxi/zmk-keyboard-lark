@@ -22,10 +22,6 @@ if SHIELD_LARK_DONGLE
     # Set this to the same number as BT_MAX_CONN
     config BT_MAX_PAIRED
         default 6
-        
-    # Enable fetching split peripheral battery levels to the central side (default n)
-    CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
-        default y
 
 endif
 
