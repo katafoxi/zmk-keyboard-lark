@@ -67,7 +67,7 @@
 &kp LWIN      &kp A            &kp S        &kp D         &kp F         &kp G                 &kp H      &mt LCTRL J        &mt LSHIFT K     &mt LALT L          &kp SEMI        &kp SQT
 &kp TAB       &kp Z            &kp X        &kp C         &kp V         &kp B                 &kp N         &kp M           &mt RALT LBKT      &kp RBKT          &kp COMMA       &kp DOT
 &kp LCTRL     &kp LALT         &kp EQUAL   &kp CAPS      &lt 1 LS(CAPS) &kp LSHIFT            &kp SPACE     &mo 1              &kp K_BACK      &kp K_FORWARD     &mo 2           &none 
-&none         &mo 3            &kp LC(BSPC) &kp BSPC      &kp DEL       &kp LC(DEL)           &kp LC(LEFT)  &kp LEFT           &kp RIGHT       &kp LC(RIGHT)     &trans          &none 
+&none         &mo 3            &kp LC(BSPC) &kp BSPC      &kp DEL       &kp LC(DEL)           &kp LC(LEFT)  &kp RIGHT          &kp LEFT       &kp LC(RIGHT)     &trans          &none 
             >;
         };
 
@@ -117,7 +117,7 @@
 &kp LWIN      &kp A            &kp S        &kp D         &kp F         &kp G                 &kp H      &mt LCTRL J        &mt LSHIFT K     &mt LALT L          &kp SEMI        &kp SQT
 &kp TAB       &kp Z            &kp X        &kp C         &kp V         &kp B                 &kp N         &kp M           &mt RALT LBKT      &kp RBKT          &kp COMMA       &kp DOT
 &kp LCTRL     &kp LALT         &kp EQUAL   &kp CAPS      &lt 5 LS(CAPS) &kp LSHIFT            &kp SPACE     &mo 5              &kp K_BACK      &kp K_FORWARD     &mo 6           &none 
-&none         &to 0            &kp LC(BSPC) &kp BSPC      &kp DEL       &kp LC(DEL)           &kp LC(LEFT)  &kp LEFT           &kp RIGHT       &kp LC(RIGHT)     &trans          &none 
+&none         &to 0            &kp LC(BSPC) &kp BSPC      &kp DEL       &kp LC(DEL)           &kp LC(LEFT)  &kp RIGHT          &kp LEFT        &kp LC(RIGHT)     &trans          &none 
             >;
         };
 
