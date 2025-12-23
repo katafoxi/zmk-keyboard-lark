@@ -135,7 +135,7 @@
 
         layer_6 {
             bindings = <
-&none         &none            &none        &none         &none         &none                 &none         &none              &none           &none             &none           &none 
+&kp ESC         &none            &none        &none         &none         &none                 &none         &none              &none           &none             &none           &none 
 &kp ESC       &kp N1           &kp N2       &kp N3        &kp N4        &kp N5                &trans        &trans             &trans          &trans            &trans          &trans
 &kp GRAVE     &kp Q            &kp W        &kp E         &kp R         &kp T                 &kp ESC     &msc SCRL_DOWN     &msc SCRL_UP      &trans            &kp LA(F4)      &trans
 &kp LWIN      &kp A            &kp S        &kp D         &kp F         &kp G                 &kp LC(C)   &mkp LCLK          &mkp MCLK       &mkp RCLK           &kp LC(W)       &kp LA(TAB)
