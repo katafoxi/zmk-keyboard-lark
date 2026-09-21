@@ -10,5 +10,6 @@ exposes:
 features:
   - keys
 siblings:
+  - lark_dongle
   - lark_left
   - lark_right
