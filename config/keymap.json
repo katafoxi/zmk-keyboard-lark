@@ -16,7 +16,7 @@
            "&kp LWIN",    "&kp A",        "&kp S",    "&kp D",          "&kp F",       "&kp G",        "&kp H",  "&mt LCTRL J",   "&mt LSHIFT K",    "&mt LALT L",  "&kp SEMI",   "&kp SQT",
        "&mt RALT TAB",    "&kp Z",        "&kp X",    "&kp C",          "&kp V",       "&kp B",        "&kp N",        "&kp M", "&mt RALT MINUS",      "&kp RBKT", "&kp COMMA",   "&kp DOT",
           "&kp LCTRL", "&kp LALT",    "&kp EQUAL", "&kp CAPS", "&lt 1 LS(CAPS)",  "&kp LSHIFT",    "&kp SPACE",        "&mo 1",  "&kp C_AC_BACK", "&kp K_FORWARD",     "&mo 2",     "&none",
-              "&none",    "&mo 3", "&kp LC(BSPC)", "&kp BSPC",        "&kp DEL", "&kp LC(DEL)", "&kp LC(LEFT)", "&kp LS(RALT)",   "&kp RA(LEFT)", "&kp LC(RIGHT)",    "&trans",     "&none"
+              "&none",    "&mo 3", "&kp LC(BSPC)", "&kp BSPC",        "&kp DEL", "&kp LC(DEL)", "&kp LC(LEFT)", "&kp LS(RALT)",   "&kp RA(LEFT)", "&kp LC(RIGHT)",     "&mo 3",     "&none"
     ], [
            "&none",           "&none",        "&none",      "&none",     "&none",        "&none",    "&none",     "&none",        "&none",        "&none",           "&none",     "&none",
        "&kp PSCRN",          "&kp N6",       "&kp N7",     "&kp N8",    "&kp N9",       "&kp N0",   "&trans",    "&trans",       "&trans",       "&trans",          "&trans",    "&trans",
